@@ -1,6 +1,6 @@
 import ipdb;
 
-from models import Pet, Owner
+from lib.models.owner import Pet, Owner
 
 apollo = Pet(name="Apollo", age=2, breed="Dog")
 daisy = Pet(name="Daisy", breed="cat")

@@ -1,6 +1,6 @@
 import ipdb
 
-from models import Owner
+from lib.models.owner import Owner
 
 if __name__ == '__main__':
     name = input('What is your name? ')
