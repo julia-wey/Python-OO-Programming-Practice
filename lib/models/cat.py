@@ -6,6 +6,5 @@ class Cat(Pet):
         self.indoor = indoor
 
     def __repr__(self):
-        return f '<Cat name={self.name} infoor={self.indoor}/>'
-    
+        return f'<Cat name={self.name} infoor={self.indoor}/>'
     
